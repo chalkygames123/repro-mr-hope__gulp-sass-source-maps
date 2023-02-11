@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "case:1": "gulp -f gulpfile.1.js",
+    "case:2": "gulp -f gulpfile.2.js",
+    "case:3": "gulp -f gulpfile.3.js",
+    "case:4": "gulp -f gulpfile.4.js"
+  },
+  "devDependencies": {
+    "@mr-hope/gulp-sass": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "dependencies": {
+    "sanitize.css": "^13.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+| Test cases                                               | Using the `base` option? | Source Maps provider | Are the source maps for partials valid? | Are the source maps for `node_modules` valid? |
+| -------------------------------------------------------- | ------------------------ | -------------------- | --------------------------------------- | --------------------------------------------- |
+| `npm run case:1` (Uses [gulpfile.1.js](./gulpfile.1.js)) | No                       | Plugin               | Yes                                     | Yes                                           |
+| `npm run case:2` (Uses [gulpfile.2.js](./gulpfile.1.js)) | Yes                      | Plugin               | No                                      | No                                            |
+| `npm run case:3` (Uses [gulpfile.3.js](./gulpfile.1.js)) | No                       | Built-in             | No                                      | Yes                                           |
+| `npm run case:4` (Uses [gulpfile.4.js](./gulpfile.1.js)) | Yes                      | Built-in             | No                                      | No                                            |
